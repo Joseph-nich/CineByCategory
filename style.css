@@ -61,7 +61,7 @@ a,li{
    background-color: var(--cor3);
    width: 70%;
    margin: auto;
-   height:1200px;
+   height:max-content;
    border-radius: 10px;
 }
 
