@@ -1,0 +1,200 @@
+*,*::after, * ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+:root{
+    --cor1: #dadada;
+    --cor2: #0e0d0d;
+    --cor3: #0c0631;
+    --cor4: #890b0b;
+    font: size 17px;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: url(images/img/samuel-regan-asante-wMkaMXTJjlQ-unsplash\ \(2\).jpg);
+    background-position: right top;
+    background-origin: content-box;
+}
+
+h1{
+    color: white;
+}
+p{
+    color: rgb(245, 240, 240);
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+.header ul{
+    display: flex;
+    gap: 4rem;
+}
+
+.header li a{
+    color: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+}
+
+.home{
+    position: relative;
+    text-align: center;
+    
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+.filmes{
+   background-color: var(--cor3);
+   width: 70%;
+   margin: auto;
+   height:1200px;
+   border-radius: 10px;
+}
+
+.genero h1{
+    position:relative;
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+    top: 40px;
+    left: 75px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+gap: 40px;
+padding: 60px 20px;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.item{
+width: 200px;
+height: 300px;
+object-fit: cover;
+transition: transform .3s linear;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    font-size: 25px;
+    text-align: center;
+    padding: 100px;
+}
+.about h1{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.about p{
+    text-align:center;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 220px;
+    padding-right: 220px;
+    
+}
+
+.about video{
+    padding: 30px;
+}
+
+footer  {
+    text-align: center;
+	font-size: 15px;
+	color: white;
+    padding-top: 230px;
+}
+
+.zz h2{
+    width:auto;
+  border: solid var(--cor4) 5px;
+  padding: 20px;
+  margin: 0px 150px;
+    text-align: center;
+    font-size: 20px;
+    color: #fffbfb;
+}
+
+.sobre1{
+    background-color: var(--cor3);
+    background-clip:content-box;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    height: min-content;
+}
+
+.sobre2{
+    text-align: center;
+	font-size: 15px;
+	color: white;
+    padding-bottom:5px;
+
+}
+
+form {
+	width: 700px;
+	margin: 30px auto;
+}
+
+form h2 {
+	text-align: center;
+	font-size: 20px;
+    color: #fffbfb;
+}
+
+form label, form legend {
+	display: block;
+	margin: 0 0 5px;
+	font-size: 20px;
+}
+
+
+.form1{
+    background: #fffbfb;
+    border-radius: 20px;
+}
+
+input[type=submit] {
+    width: 400px;
+    background-color: var(--cor4);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.contato{
+    width:auto;
+    padding: 20px;
+    margin: 0px 150px;
+      text-align: center;
+      font-size: 20px;
+      color: #fffbfb;
+}
+
+
